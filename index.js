@@ -53,7 +53,7 @@ app.post("/submit", (req, res) => {
       index = Math.floor(Math.random() * myarr.length);
       res.render("index.ejs",{
               question: myarr[index],
-              wasCorrect: true,
+              wasCorrect: true, 
               totalScore: currentscore,
          });
     }else{
